@@ -2,70 +2,85 @@
 
 ChatGPT Mini is a lightweight offline AI assistant written in Python.
 
-It uses a simple brain file:
+It runs entirely from a local brain file:
+
 Downloads/chatgpts ai/data/school.txt
 
-No APIs.
-No internet required (except for opening websites).
-No tracking.
-No subscriptions.
+No APIs  
+No internet required (except opening websites)  
+No tracking  
 
 ---
 
-# 📦 Versions
+# 📥 IMPORTANT INSTALLATION
 
-## 🟢 ChatGPT Mini (Free)
+You MUST put the folder directly inside your Downloads folder.
 
-• Uses school.txt as its brain  
-• Auto-detects Downloads folder  
-• Answers using question = answer format  
-• Fuzzy matching for similar questions  
-• Opens websites instantly  
-• Terminal-based  
-• Fully offline  
-
----
-
-## 🔴 ChatGPT Mini Pro
-
-Everything from the free version PLUS:
-
-• Password protection  
-• Faster processing  
-• Smarter matching  
-• Cleaner error handling  
-• Optional calculator  
-• Optional time/date commands  
-• Brain auto-refresh  
-• Version display  
-• Optimized performance  
-
----
-
-# 📁 Required Folder Structure
-
-Users must create:
+Correct location:
 
 Downloads
 └── chatgpts ai
     └── data
         └── school.txt
 
-Example school.txt:
+DO NOT:
+• Rename "chatgpts ai"
+• Rename the "data" folder
+• Delete anything inside the data folder
 
-what is pi = 3.14159  
-who invented gravity = isaac newton  
-capital of france = paris  
+The AI will stop working if you change these.
 
 ---
 
-# 🚀 How To Run
+# 🧠 Brain File Rules
 
-Install Python (Microsoft Store version works)
+The AI ONLY learns from:
 
-Then run:
+data/school.txt
 
-python chatgpt-mini.py
+Correct format:
+
+question = answer
+
+Example:
+
+what is pi = 3.14159  
+capital of france = paris  
+
+If the file is missing or formatted wrong, the AI cannot answer questions.
+
+---
+
+# 🔐 Getting ChatGPT Mini Pro
+
+To get the Pro version password:
+
+Message me on Discord: **nyxos0795**
+
+I will send you the password as fast as I can.
+
+---
+
+# 🆚 Version Comparison
+
+| Feature                         | Free | Pro |
+|---------------------------------|-----:|----:|
+| Offline answering               |  ✔   | ✔   |
+| Uses school.txt brain           |  ✔   | ✔   |
+| Closest question matching       |  ✔   | ✔ (smarter) |
+| Opens websites                  |  ✔   | ✔   |
+| Opens desktop applications      |  ✖   | ✔   |
+| Auto find Downloads folder      |  ✔   | ✔   |
+| Terminal interface              |  ✔   | ✔   |
+| Password protection             |  ✖   | ✔   |
+| Faster searching                |  ✖   | ✔   |
+| Cleaner responses               |  ✖   | ✔   |
+| Auto brain refresh (no restart) |  ✖   | ✔   |
+| Built-in calculator commands    |  ✖   | ✔   |
+| Time & date commands            |  ✖   | ✔   |
+| Version info on startup         |  ✖   | ✔   |
+| Improved error handling         |  ✖   | ✔   |
+| Performance optimized           |  ✖   | ✔   |
 
 ---
 
@@ -81,37 +96,71 @@ Websites open instantly.
 
 ---
 
-# 🔒 Pro Version
+# 🖥 Creating a Desktop Shortcut (Windows 11)
 
-Pro version requires a password before launching.
+1. Right click chatgpt-mini.py  
+2. Click "Show more options"  
+3. Click "Send to"  
+4. Click "Desktop (create shortcut)"  
+
+Then:
+
+Right click shortcut → Properties  
+In "Target" add:
+
+python
+
+before the file path
+
+Example:
+
+python "C:\Users\YourName\Downloads\chatgpts ai\chatgpt-mini.py"
+
+Click Apply → OK
+
+Now it launches like a real app.
+
+---
+
+# ⚠ Do NOT Modify Files
+
+Do NOT remove anything from:
+data/
+
+Do NOT rename:
+chatgpts ai
+
+The program automatically searches for this folder.
+Changing it breaks the AI.
 
 ---
 
 # ⚠ Disclaimer
 
-This is an offline AI experiment.
-It does not connect to OpenAI.
-It does not replace real ChatGPT.
+This is an offline AI experiment.  
+It is NOT the official ChatGPT and does not connect to OpenAI.
 
 ---
 
 # 🛠 Built With
 
-• Python 3  
-• difflib  
-• os  
-• webbrowser  
+Python 3  
+os  
+difflib  
+webbrowser  
 
 No external libraries required.
 
 ---
-
-# 📜 License
-
-You may modify and distribute this project.
-Do not claim it as the official ChatGPT.
-
 ---
+
+# 📝 Project Note
+
+ChatGPT Mini is inspired by ChatGPT but was independently developed and customized by the creator of this repository.
+
+It does not use OpenAI’s API and does not connect to official ChatGPT services.
+
+This project is for educational and experimental purposes only.
 
 # 👤 Creator
 
