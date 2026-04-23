@@ -51,7 +51,7 @@ HOW TO GET PRO ACCESS
 To unlock the Pro Version, you must request the password directly.
 
 Message me on Discord:
-nyxos0795
+fn_sin
 
 I will get back to you as fast as I can with the Pro password.
 
